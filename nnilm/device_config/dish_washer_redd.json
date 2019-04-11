@@ -1,0 +1,35 @@
+{
+    "data_file": "data/redd.h5",
+    "target_appliance": "dish washer",
+    "distracting_appliances": ["microwave", "fridge", "washer dryer", "kettle"],
+    "seq_length": 720,
+    "activation_threshold": 10,
+    "input_std": 600,
+    "target_std": 300,
+    "windows": {
+        "train": {
+            "1": [null, "2011-05-14"],
+            "2": [null, "2011-04-27"],
+            "3": [null, "2011-05-23"]
+        },
+        "unseen_activations_of_seen_appliances": {
+            "1": ["2011-05-14", null],
+            "2": ["2011-04-27", null],
+            "3": ["2011-05-23", null]
+        },
+        "unseen_appliances": {
+            "4": [null, null]
+        }
+    },
+    "predict_windows": {
+        "train": {
+            "4": [null, null]
+        },
+        "unseen_activations_of_seen_appliances": {
+            "4": [null, null]
+        },
+        "unseen_appliances": {
+            "4": [null, null]
+        }
+    }
+}

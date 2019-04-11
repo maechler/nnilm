@@ -1,0 +1,31 @@
+{
+    "data_file": "data/eco.h5",
+    "target_appliance": "washing machine",
+    "distracting_appliances": ["coffee machine", "fridge", "dryer", "kettle"],
+    "seq_length": 720,
+    "activation_threshold": 10,
+    "input_std": 550,
+    "target_std": 300,
+    "windows": {
+        "train": {
+            "1": [null, "2012-12-01"]
+        },
+        "unseen_activations_of_seen_appliances": {
+            "1": ["2012-12-01", "2013-01-01"]
+        },
+        "unseen_appliances": {
+            "1": ["2013-01-01", "2013-01-31"]
+        }
+    },
+    "predict_windows": {
+        "train": {
+            "1": [null, null]
+        },
+        "unseen_activations_of_seen_appliances": {
+            "1": [null, null]
+        },
+        "unseen_appliances": {
+            "1": ["2013-01-01", "2013-01-31"]
+        }
+    }
+}

@@ -1,0 +1,7 @@
+/.idea
+/env
+
+/out
+/data
+/experiments
+*.pyc
