@@ -79,7 +79,7 @@ networkx==2.1
 -e git+https://github.com/JackKelly/neuralnilm/@c0539416ddcdffc27e89fb393f31cdc0f437d50a#egg=NeuralNILM
 -e git+https://github.com/nilmtk/nilm_metadata/@c7348dd1fdb2a7a7f9aa1f808ff5d67bf39f97c6#egg=nilm_metadata
 -e git+https://github.com/nilmtk/nilmtk/@e5cc77e560d2520861a7ce3aec1f6feda4441c9e#egg=nilmtk
-nltk==3.4
+nltk==3.4.5
 nose==1.3.7
 notebook==5.7.0
 numexpr==2.6.9
